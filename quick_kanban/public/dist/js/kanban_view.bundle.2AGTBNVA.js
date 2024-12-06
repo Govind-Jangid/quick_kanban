@@ -15,15 +15,16 @@
         this.renderOld();
         return;
       }
-      if (kanban_conf.kanban_beta_users) {
-        if (kanban_conf.kanban_beta_users.includes(frappe.session.user)) {
-          this.renderBeta();
-        } else {
-          this.renderOld();
-        }
-      } else {
-        this.renderBeta();
-      }
+      this.renderBeta();
+      // if (kanban_conf.kanban_beta_users) {
+      //   if (kanban_conf.kanban_beta_users.includes(frappe.session.user)) {
+      //     this.renderBeta();
+      //   } else {
+      //     this.renderOld();
+      //   }
+      // } else {
+      //   this.renderBeta();
+      // }
     }
     renderBeta() {
       if (!window.refreshKanbanBoard) {

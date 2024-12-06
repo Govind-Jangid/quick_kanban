@@ -1,4 +1,4 @@
-/* ../../../../../tmp/tmp-570682-ZjQIIoDIH1d9/quick_kanban/quick_kanban/public/css/quick_kanban.bundle.css */
+/* ../../../../../../tmp/tmp-14660-ApOdPkPSEvgJ/quick_kanban/quick_kanban/public/css/quick_kanban.bundle.css */
 [data-theme=dark] {
   --kanban-column-gray: var(--gray-800);
   --kanban-column-red: #6b151580;
@@ -56,7 +56,7 @@
   position: absolute;
   transform: translate3d(0, 16px, 0);
   top: 0;
-  left: 0;
+  right: 0;
   will-change: transform;
 }
 #kanbanapp .column-title {
@@ -66,7 +66,7 @@
   text-align: start;
 }
 #kanbanapp .indicator-pill {
-  margin-right: 6px;
+  margin-left: 6px;
 }
 #kanbanapp .kanban-card {
   display: flex;
@@ -124,4 +124,4 @@
   justify-content: center;
   cursor: pointer;
 }
-/*# sourceMappingURL=quick_kanban.bundle.X3BL6ASS.css.map */
+/*# sourceMappingURL=quick_kanban.bundle.OGZOZPAK.css.map */
